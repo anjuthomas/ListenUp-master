@@ -1,6 +1,7 @@
 package edu.berkeley.cs160.jaguars.listenup;
 
 import android.app.Activity;
+<<<<<<< HEAD
 import android.app.Fragment;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -9,11 +10,17 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
+=======
+import android.app.ActionBar;
+import android.app.Fragment;
+import android.os.Bundle;
+>>>>>>> 274d5ecf9acd7dfe7ef90cc950a92e761fcb13d0
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 
 public class MainActivity extends Activity {
 
@@ -21,19 +28,32 @@ public class MainActivity extends Activity {
 	private int mNotifyId = 1;
 	private NotificationCompat.Builder mBuilder;
 	
+=======
+import android.os.Build;
+
+public class MainActivity extends Activity {
+
+>>>>>>> 274d5ecf9acd7dfe7ef90cc950a92e761fcb13d0
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 274d5ecf9acd7dfe7ef90cc950a92e761fcb13d0
 		/*
 		if (savedInstanceState == null) {
 			getFragmentManager().beginTransaction()
 					.add(R.id.container, new PlaceholderFragment()).commit();
 		}
 		*/
+<<<<<<< HEAD
 		//Put notification icon in taskbar
 		startNotification();
+=======
+		
+>>>>>>> 274d5ecf9acd7dfe7ef90cc950a92e761fcb13d0
 		
 	}
 
@@ -73,6 +93,7 @@ public class MainActivity extends Activity {
 			return rootView;
 		}
 	}
+<<<<<<< HEAD
 	
 	private void startNotification() {
 		mBuilder =
@@ -104,5 +125,7 @@ public class MainActivity extends Activity {
 		// mNotifyId allows you to update the notification later on.
 		mNotificationManager.notify(mNotifyId, mBuilder.build());
 	}
+=======
+>>>>>>> 274d5ecf9acd7dfe7ef90cc950a92e761fcb13d0
 
 }

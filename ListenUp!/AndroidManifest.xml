@@ -5,11 +5,17 @@
     android:versionName="1.0" >
 
     <uses-sdk
+<<<<<<< HEAD
         android:minSdkVersion="16"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     
+=======
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+>>>>>>> 274d5ecf9acd7dfe7ef90cc950a92e761fcb13d0
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -24,6 +30,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+         <activity
+            android:name="edu.berkeley.cs160.jaguars.listenup.Settings"
+            android:label="@string/app_name" >
+          
+        </activity>
+>>>>>>> 274d5ecf9acd7dfe7ef90cc950a92e761fcb13d0
     </application>
 
 </manifest>
