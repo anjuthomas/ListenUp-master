@@ -1,7 +1,7 @@
 ListenUp-master
 ===============
 
-Our application, Listen-Up!, is targeted at bicycle riders who like to listen to music while they are commuting.
+Our android application, Listen-Up!, is targeted at bicycle riders who like to listen to music while they are commuting.
 
 Bikers often have trouble paying attention to auditory signals in their surroundings while biking with headphones on
 
@@ -12,8 +12,9 @@ into a state of danger.
 
 You can also download the app here:
 https://play.google.com/store/apps/details?id=edu.berkeley.cs160.jaguars.listenup
-Current Design
 
+
+Current Design
 
 Settings screen
 
